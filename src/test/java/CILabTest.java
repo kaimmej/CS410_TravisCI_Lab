@@ -23,12 +23,27 @@ public class CILabTest {
     @Test
     public void detectCapitalUseTest1() {
        fail("Not yet implemented");
+       // myString is set to a "Software engineering"
 
     }
     @Test
     public void detectCapitalUseTest2() {
         fail("Not yet implemented");
+
+        // myString is set to a "software engineering"
     }
 
+    @Test
+    public void detectCapitalUseTest3() {
+        fail("Not yet implemented");
 
+        // myString is set to a "SOFTWARE ENGINEERING"
+    }
+
+    @Test
+    public void detectCapitalUseTest4() {
+        fail("Not yet implemented");
+
+        // myString is set to a ""
+    }
 }
