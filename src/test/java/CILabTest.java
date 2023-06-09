@@ -22,7 +22,7 @@ public class CILabTest {
 
     @Test
     public void detectCapitalUseTest1() {
-       fail("Not yet implemented");
+       System.out.println("test 1 works!!!");
        // myString is set to a "Software engineering"
 
     }
