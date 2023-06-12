@@ -13,6 +13,7 @@ public class CILab implements CILabInterface {
         s = string;
     }
 
+    // Returns true if any of the letters are upper case
     @Override
     public boolean detectCapitalUse() {
         char ch;
