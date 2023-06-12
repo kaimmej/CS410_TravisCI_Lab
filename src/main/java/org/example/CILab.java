@@ -1,20 +1,27 @@
 package org.example;
 
 public class CILab implements CILabInterface {
-    private String myString;
+    private String s;
 
     @Override
     public String getString() {
-        return myString;
+        return s;
     }
 
     @Override
     public void setString(String string) {
-        myString = string;
+        s = string;
     }
 
     @Override
     public boolean detectCapitalUse() {
+        char ch;
+        for( int i=0 ; i<s.length() ; i++){
+            ch = s.charAt(i);
+            if (Character.isUpperCase(ch)){
+                return true;
+            }
+        }
         return false;
     }
 
